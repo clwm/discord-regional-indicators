@@ -38,7 +38,7 @@ async def on_message(message):
         if raw == "":
             embed=discord.Embed(title="Emojifier v1.0", description="Created by qCam\n\nUse `!emojifier -h`")
             await message.channel.send(embed=embed)
-            await message.channel.send('https://discord.com/channels/331855986270928896/333243979015389185/587465601610547203')
+            await message.channel.send('https://cdn.discordapp.com/attachments/744483084568887320/781070974287740948/unknown.png')
 
         elif raw.startswith('-r'):
             raw = raw[3:] # removes '-r ' from beginning of string
