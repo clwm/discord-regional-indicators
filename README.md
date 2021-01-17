@@ -1,4 +1,4 @@
 # discord-regional-indicators
-Converts a string into discord emojis.
+A Discord bot that converts text into emojis.
 
 `py indicators_bot.py`
