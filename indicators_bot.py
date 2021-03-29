@@ -27,13 +27,11 @@ async def on_message(message):
 
     if message.content.startswith('!emojify') or message.content.startswith('!emojifier'):
 
-        raw = message.content
-
         # Remove !command from beginning of message string
         if message.content.startswith('!emojify'):
-            raw = raw[9:]
+            raw = message.content[9:]
         elif message.content.startswith('!emojifier'):
-            raw = raw[11:]
+            raw = message.content[11:]
 
         if raw == "":
             embed=discord.Embed(title="Emojifier v1.0", description="Created by qCam\n\nUse `!emojifier -h`")
